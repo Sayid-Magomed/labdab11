@@ -10,9 +10,9 @@ class Restaurant:
         print("Ресторан сейчас открыт")
 
 
-restaurant1 = Restaurant("Hi", "странная")
-restaurant2 = Restaurant("Jo", "Японская")
-restaurant3 = Restaurant("Р0", "Русская")
+restaurant1 = Restaurant("Даймохк", "Чеченская")
+restaurant2 = Restaurant("Жумайсынба", "Казахская")
+restaurant3 = Restaurant("Лееее", "Дагестанская")
 
 restaurant1.describe_restaurant()
 restaurant2.describe_restaurant()

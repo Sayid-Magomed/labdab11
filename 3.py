@@ -5,7 +5,7 @@ class Restaurant:
         self.rating = initial_rating
 
     def describe_restaurant(self):
-        print(f"Название ресторана {self.restaurant_name}кухня: {self.cuisine_type}  русская .")
+        print(f"Название ресторана {self.restaurant_name}кухня: {self.cuisine_type}  Чеченская .")
 
     def open_restaurant(self):
         print("Ресторан сейчас открыт.")
@@ -17,11 +17,11 @@ class Restaurant:
 
 
 
-restaurant1 = Restaurant("Р0", "Русская", 2)
+restaurant1 = Restaurant("Даймохк", "Чеченская", 5)
 
 # текущий рейтинг ресторана
 print(f"Изначальный рейтинг ресторана {restaurant1.restaurant_name}   {restaurant1.rating} .")
 
 # выводим новое значение
-restaurant1.update_rating(5)
+restaurant1.update_rating(10)
 print(f"Новый, обновленный рейтинг  {restaurant1.restaurant_name} : {restaurant1.rating}.")
